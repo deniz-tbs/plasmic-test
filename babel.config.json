@@ -1,0 +1,18 @@
+{
+  "presets": [
+    [
+      "next/babel",
+      {
+        "preset-env": {
+          "modules": false
+        },
+        "preset-react": {
+          "runtime": "automatic",
+          "importSource": "theme-ui"
+        },
+        "runtime": "automatic",
+        "importSource": "theme-ui"
+      }
+    ]
+  ]
+}
